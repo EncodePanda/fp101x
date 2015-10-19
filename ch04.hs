@@ -14,3 +14,9 @@ safetail2 xs | (length xs) > 0 = drop 1 xs
 safetail3 :: [a] -> [a]
 safetail3 [] = []
 safetail3 (x:xs) = xs
+
+u :: Bool -> Bool -> Bool
+u True True = True
+u True False = True
+u False True = True
+u False False = False
