@@ -20,3 +20,10 @@ u True True = True
 u True False = True
 u False True = True
 u False False = False
+
+
+n' :: Bool -> Bool -> Bool
+n' a b = if a == True then
+            if b == True then True else False
+            else False
+                
