@@ -27,3 +27,4 @@ n' a b = if a == True then
             if b == True then True else False
             else False
                 
+mult = (\a -> (\b ->(\c -> a * b * c)))
